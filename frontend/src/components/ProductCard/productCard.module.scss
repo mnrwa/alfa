@@ -1,0 +1,34 @@
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  color: #666;
+  flex-grow: 1;
+}
+
+.genre {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.metaSection {
+  margin-top: auto;
+}
+
+.buttonContainer {
+  margin-top: 15px !important;
+  display: flex;
+  justify-content: space-between;
+}
